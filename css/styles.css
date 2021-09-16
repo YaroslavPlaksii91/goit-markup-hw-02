@@ -7,6 +7,7 @@
   --logo-black-color: #000000;
   --team-bg-color: #f5f4fa;
   --footer-bg-color: #2f303a;
+  --hero-btn-bg-hover-color: #188ce8;
 }
 
 body {
@@ -96,6 +97,10 @@ body {
   letter-spacing: 0.06em;
 
   cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--hero-btn-bg-hover-color);
 }
 
 /* features */
